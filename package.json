@@ -1,0 +1,40 @@
+{
+  "name": "nodejs-react-movie",
+  "version": "1.0.0",
+  "description": "Nodejs와 react로 영화사이트 웹 어플리케이션 개발",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezuoo/nodejs-react-movie.git"
+  },
+  "author": "ezuoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezuoo/nodejs-react-movie/issues"
+  },
+  "homepage": "https://github.com/ezuoo/nodejs-react-movie#readme",
+  "scripts": {
+    "start": "node server/index.js",
+    "backend": "nodemon server/index.js",
+    "frontend": "npm run start --prefix client",
+    "dev": "concurrently \"npm run backend\" \"npm run start --prefix client\" "
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.9",
+    "react-redux": "^7.2.2",
+    "saslprep": "^1.0.3",
+    "supports-color": "^8.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.6"
+  }
+}
