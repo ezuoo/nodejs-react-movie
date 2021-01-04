@@ -1,11 +1,10 @@
 import React, {useEffect, useState } from 'react'
 import {API_KEY, API_URL, IMAGE_BASE_URL} from '../../Config';
-import MainImage from './Section/MainImage';
+import MainImage from '../Common/MainImage';
 import GridCards from "../Common/GridCards";
-import {Row} from 'antd';
+import {Row, Button} from 'antd';
 
 function LandingPage() {
-   
     const [Movies, setMovies] = useState([]);
     const [MainMovieImage, setMainMovieImage] = useState(null);
     const [CurrentPage, setCurrentPage] = useState(0);
@@ -41,7 +40,7 @@ function LandingPage() {
                 }
             </div>
             <br />    
-            <div style={{width: '85%', margin: '1rem auto'}}>
+            <div style={{width: '76%', margin: '1rem auto'}}>
                 <h2>Movie by latest</h2>
                 <hr />
                 <br />
@@ -50,6 +49,7 @@ function LandingPage() {
                     {Movies && Movies.map((movie, index) => (
                         <React.Fragment key={index}>
                             <GridCards
+                                landingPage={true}
                                 image={movie.poster_path ? `${IMAGE_BASE_URL}w500${movie.poster_path}` : null}
                                 movieId={movie.id}
                                 movieName={movie.original_title} />
@@ -58,12 +58,12 @@ function LandingPage() {
                 </Row>
             
             </div>
-
+            <br />
             <div style={{display: 'flex', justifyContent: 'center'}}>
-                <button onClick={onClickLoadHandler}>Load More</button>
+                <Button onClick={onClickLoadHandler}>Load More</Button>
             </div>
         </>
     )
 }
 
-export default LandingPage
+export default React.memo(LandingPage)
