@@ -14,6 +14,7 @@ open API를 이용하여 최신 영화 리스트를 보여주는 웹 애플리�
 <br />
 
 ## 🎥 랜딩페이지
+![main](https://user-images.githubusercontent.com/61848895/116954225-5424c800-acca-11eb-8d51-4c70286698ff.png)
 
 ## 🎥 영화 정보
 ![detail](https://user-images.githubusercontent.com/61848895/116954191-3ce5da80-acca-11eb-9306-19e2dc4e79f0.png)
