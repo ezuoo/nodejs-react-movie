@@ -10,21 +10,16 @@ open API를 이용하여 최신 영화 리스트를 보여주는 웹 애플리�
  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=white"> <br />
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"> <br />
  <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=Ant%20Design&logoColor=white"> <br />
- 
- 
- 
-
 <br />
+
+## 🎥 랜딩페이지
+
+## 🎥 영화 정보
+
 
 ## 🗺️ 참고
 - [**themoviedb open api**](https://www.themoviedb.org/)
-
-
-## 랜딩페이지
-
-## 영화 정보
-
-
+- [**React Hooks API**](https://ko.reactjs.org/docs/hooks-reference.html)
 <br />
 
 ## 🌿 후기
