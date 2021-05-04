@@ -15,10 +15,12 @@ open API를 이용하여 최신 영화 리스트를 보여주는 웹 애플리�
 
 ## 🎥 랜딩페이지
 ![main](https://user-images.githubusercontent.com/61848895/116954225-5424c800-acca-11eb-8d51-4c70286698ff.png)
+더보기 버튼을 누르면 영화 리스트를 이어서 보여지도록 구현했습니다.
+<br />
 
 ## 🎥 영화 정보
 ![detail](https://user-images.githubusercontent.com/61848895/116954191-3ce5da80-acca-11eb-9306-19e2dc4e79f0.png)
-
+<br />
 ## 🗺️ 참고
 - [**themoviedb open api**](https://www.themoviedb.org/)
 - [**React Hooks API**](https://ko.reactjs.org/docs/hooks-reference.html)
